@@ -89,6 +89,9 @@ kotlin {
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-common-jvm-test:1.3.2")
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-js-common-test:1.3.2")
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-js-jvm-test:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-js-common-jvm-test:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-common-native-mt-test:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-native-mt-test:1.3.2")
             }
         }
     }
