@@ -57,6 +57,21 @@ kotlin {
                 implementation(kotlin("test"))
                 implementation(kotlin("test-common"))
                 implementation(kotlin("test-annotations-common"))
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-test:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-test:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-cbor-test:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-csv-test:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-yaml-test:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-msgpack-test:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobufjs-test:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-runtime-test:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-js-runtime-test:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-common-test:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-jvm-test:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-common-jvm-test:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-js-common-test:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-js-jvm-test:1.3.2")
             }
         }
     }
