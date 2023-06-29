@@ -81,6 +81,6 @@ android {
     namespace = "com.example.kotlinmultiplatformsharedmodule"
     compileSdk = 33
     defaultConfig {
-        minSdk = 24
+        minSdk = 28
     }
 }
