@@ -29,6 +29,24 @@ kotlin {
         val commonMain by getting {
             dependencies {
                 //put your multiplatform dependencies here
+                implementation project(':shared')
+                implementation project(':core')
+                implementation project(':automation')
+                implementation project(':combo')
+                implementation project(':database')
+                implementation project(':dana')
+                implementation project(':danars')
+                implementation project(':danar')
+                implementation project(':insight')
+                implementation project(':kotlinmultiplatformsharedmodule')
+                implementation project(':pump-common')
+                implementation project(':rileylink')
+                implementation project(':medtronic')
+                implementation project(':omnipod-common')
+                implementation project(':omnipod-eros')
+                implementation project(':omnipod-dash')
+                implementation project(':diaconn')
+                implementation project(':openhumans')
             }
         }
         val commonTest by getting {
