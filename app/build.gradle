@@ -212,6 +212,7 @@ dependencies {
     implementation project(':danars')
     implementation project(':danar')
     implementation project(':insight')
+    implementation project(':kotlinmultiplatformsharedmodule')
     implementation project(':pump-common')
     implementation project(':rileylink')
     implementation project(':medtronic')
