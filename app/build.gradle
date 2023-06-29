@@ -197,6 +197,11 @@ android {
 
 allprojects {
     repositories {
+        google()
+        jcenter()
+        maven {
+            url "https://jitpack.io"
+        }
     }
 }
 
@@ -231,8 +236,15 @@ dependencies {
     annotationProcessor "com.google.dagger:dagger-android-processor:$dagger_version"
     kapt "com.google.dagger:dagger-android-processor:$dagger_version"
 
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-contrib'
+
     /* Dagger2 - default dependency */
     kapt "com.google.dagger:dagger-compiler:$dagger_version"
+    kapt "com.google.dagger:dagger-android-processor:$dagger"
+
 }
 
 apply from: "${project.rootDir}/core/test_dependencies.gradle"
