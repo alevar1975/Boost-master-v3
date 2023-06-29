@@ -206,7 +206,6 @@ dependencies {
     implementation project(':shared')
     implementation project(':core')
     implementation project(':automation')
-    implementation project(':settings')
     implementation project(':utils')
     implementation project(':notifications')
     implementation project(':upload')
