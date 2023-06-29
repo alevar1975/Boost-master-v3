@@ -657,6 +657,14 @@ kotlin {
         val commonTest by getting {
             dependencies {
                 implementation(kotlin("test"))
+                implementation(kotlin("test-common"))
+                implementation(kotlin("test-annotations-common"))
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-common-wasm32-mt:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-js-common-wasm32-mt:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-common-wasm32-mt:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-js-common-wasm32-mt:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-common-wasm32-mt:1.3.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf-js-common-wasm32-mt:1.3.2")
             }
         }
     }
